@@ -33,7 +33,7 @@ public class App {
             it.remove();
         }
         list2.remove(1);
-        // 第二种删除
+        // 第二种删除 
         for(int i = 0;i<list2.size();i++){
             Integer  s = list2.get(i);
             list.remove(s);

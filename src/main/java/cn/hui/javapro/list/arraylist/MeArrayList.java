@@ -30,7 +30,9 @@ public class MeArrayList<E> implements List<E>, RandomAccess, Cloneable, java.io
         return size;
     }
   
-
+    /**
+     * 
+     */
     public boolean isEmpty() {
         return false;
     }

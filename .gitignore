@@ -1,5 +1,4 @@
-target/test-classes/cn/hui/javapro/AppTest.class
-target/classes/cn/hui/javapro/App.class
+target/
 .vscode/launch.json
 .settings/org.eclipse.m2e.core.prefs
 .settings/org.eclipse.jdt.core.prefs

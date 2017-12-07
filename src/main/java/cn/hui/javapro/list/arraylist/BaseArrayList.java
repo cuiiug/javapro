@@ -10,5 +10,6 @@ public class BaseArrayList{
     }
     public static void main(String[] args) {
         add();
+        System.out.println("guojianhui");
     }
 }

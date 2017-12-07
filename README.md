@@ -1,2 +1,6 @@
 # javapro
-1、ArrayList 源码分析、常见问题解析
+
+1、ArrayList 分析
+   1) 源码注释
+   2）常用方法示例
+   3）常见bug分析

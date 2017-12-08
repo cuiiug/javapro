@@ -20,9 +20,6 @@ public class App {
     public static void testArrayListRemoveException(){
         ArrayList<Integer> list = new ArrayList<Integer>();
         list.add(112);
-        list.add(2);
-        list.add(22);
-        list.add(23);
         list.add(24);
         ArrayList<Integer> list2 = new ArrayList<Integer>();
         list2.addAll(list);

@@ -19,7 +19,7 @@
 
 #desc
 1、buffer：缓冲区，实际上是一个容器，一个连续数组。Channel提供从文件、网络读取数据的渠道，但读写的数据都必须经过buffer
-           client----->Buffer------>Channel------Channel------->Buffer-------->Server
+       client----->Buffer------>Channel------Channel------->Buffer-------->Server
 2、向Buffer中写数据：
    从Channel写到Buffer
    通过Buffer的put方法

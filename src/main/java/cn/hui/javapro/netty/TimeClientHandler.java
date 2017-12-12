@@ -4,7 +4,6 @@ import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
 import io.netty.channel.ChannelHandlerAdapter;
 import io.netty.channel.ChannelHandlerContext;
-import java.io.UnsupportedEncodingException;
 
 public class TimeClientHandler extends ChannelHandlerAdapter {
     private final ByteBuf firstMessage;

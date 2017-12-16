@@ -1,5 +1,6 @@
 package cn.hui.javapro.list.arraylist;
 
+import java.util.Arrays;
 import java.util.Collection;
 import java.util.ConcurrentModificationException;
 import java.util.Iterator;
@@ -61,15 +62,24 @@ public class MeArrayList<E> implements List<E>, RandomAccess, Cloneable, java.io
     }
 
     public Iterator<E> iterator() {
-        return null;
+        return new Itr();
     }
 
+    /**
+     * 返回包含所有元素的数组，元素顺序保持一致
+     */
     public Object[] toArray() {
-        return null;
+        return Arrays.copyOf(elementData, size);
     }
 
     public <T> T[] toArray(T[] a) {
-        return null;
+        if (a.length < size) {
+            return (T[]) Arrays.copyOf(elementData, size, a.getClass());
+        }
+        System.arraycopy(elementData, 0, a, 0, size);
+        if (a.length > size)
+            a[size] = null;
+        return a;
     }
 
     public boolean add(E e) {

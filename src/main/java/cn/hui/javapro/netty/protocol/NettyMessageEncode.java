@@ -41,7 +41,6 @@ public final class NettyMessageEncode extends MessageToMessageEncoder<NettyMessa
             sendBuf.writeInt(keyArray.length);
             sendBuf.writeBytes(keyArray);
             value = param.getValue();
-            MarshallingEncoder.encode(ctx, value,sendBuf);
         }
     }
     

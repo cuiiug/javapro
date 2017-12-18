@@ -13,7 +13,6 @@ public class TimeServer{
             Socket socket = null;
             while(true){
                 socket = server.accept();
-                new Thread()
             }
         } catch (Exception e) {
             e.printStackTrace();
